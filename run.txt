@@ -1,0 +1,14 @@
+Step 1: Create a conda environment. Activate the new environment
+conda create -n venv python=3.10
+conda activate venv
+
+Step 2: Install the requirements file
+pip install -r requirements.txt
+
+Step 3: Run the app
+python app.py
+flask --app app.py run
+
+
+Step 4: The app will run on port 5000.
+localhost:5000
